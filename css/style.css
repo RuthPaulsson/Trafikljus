@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+.traffic-lights {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.light {
+    height: 150px;
+    width: 150px;
+    background-color: green;
+}
+
+.light.red {
+    background-color: red;
+    border: 10px solid darkred;
+    display: flex;
+    align-items: flex-end;
+}
+
+.light.red aside { 
+    background-color: lightcoral;   
+    height: 50%;
+    width: 100%;
+
+}
+
+.light.yellow {
+    background-color: yellow;
+    border: 10px solid orange;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.light.yellow aside {
+    background-color: lightyellow;
+    height: 50%;
+    width: 50%;
+}
+
+.light.green {
+    background-color: green;
+    border: 10px solid darkgreen;
+    display: flex;
+    align-items: flex-end;
+}
+
+.light.green aside {
+    background-color: lightgreen;
+    height: 50%;
+    width: 50%;
+}
